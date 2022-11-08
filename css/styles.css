@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 p,
@@ -11,29 +11,53 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0;
+  margin: 0;
 }
 
 ul,
 ol {
-    margin: 0;
-    padding-left: 0;
-    list-style: none;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
 }
 
 button {
-    cursor: pointer;
-    font-family: inherit;
+  cursor: pointer;
+  font-family: inherit;
 }
 
 address {
-    font-style: normal;
+  font-style: normal;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 img {
-    display: block;
+  display: block;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  background-color: grey;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.container {
+  width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #ffffff;
 }
