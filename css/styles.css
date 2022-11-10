@@ -67,6 +67,7 @@ body {
   line-height: 1.25;
   color: #ffffff;
 }
+
 /*  Section Hero*/
 
 .hero {
@@ -74,6 +75,7 @@ body {
   padding-bottom: 335px;
   background-color: gray;
 }
+
 .hero-description {
   font-weight: 500;
   font-size: 16px;
@@ -82,6 +84,7 @@ body {
   color: #ffffff;
   margin-bottom: 20px;
 }
+
 .hero-title {
   font-weight: 800;
   font-size: 48px;
@@ -93,6 +96,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
 .hero-btn {
   display: block;
   margin: 0 auto;
@@ -102,8 +106,9 @@ body {
   padding-top: 110px;
   padding-bottom: 105px;
 }
-.container {
-}
+
+.container {}
+
 .mobile-title {
   font-family: "Montserrat";
   font-size: 36px;
@@ -114,6 +119,7 @@ body {
   margin: 0 auto;
   margin-bottom: 32px;
 }
+
 .mobile-text {
   font-size: 16px;
   line-height: 1.56;
@@ -123,12 +129,14 @@ body {
   margin: 0 auto;
   margin-bottom: 70px;
 }
+
 .mobile-list {
   display: flex;
   gap: 27px;
 }
-.mobile-item {
-}
+
+.mobile-item {}
+
 .mobile-item-title {
   font-weight: 600;
   font-size: 18px;
@@ -136,11 +144,13 @@ body {
   color: #000000;
   margin-bottom: 12px;
 }
+
 .mobile-item-text {
   font-size: 14px;
   line-height: 1.6;
   color: #999999;
 }
+
 .btn {
   font-weight: 500;
   font-size: 16px;
@@ -154,6 +164,7 @@ body {
   border-radius: 30px;
   border: none;
 }
+
 .mobile-btn {
   margin: 0 auto;
   display: block;
@@ -171,6 +182,7 @@ body {
   align-items: center;
   flex-shrink: 0;
 }
+
 .insite {
   width: 90px;
   height: 90px;
@@ -188,4 +200,76 @@ body {
 
 .mobile-icon {
   fill: #4985ff;
+}
+
+/* ----------standard----------- */
+
+.standard {
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.standard-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #E0E0E0;
+  padding-bottom: 90px;
+  margin-bottom: 70px;
+}
+
+.standard-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.47;
+  color: #323232;
+  margin-bottom: 60px;
+}
+
+.standard-content {
+  max-width: 489px;
+}
+
+.standard-description {
+  font-size: 16px;
+  line-height: calc(25 / 16);
+  color: #999999;
+  margin-bottom: 42px;
+}
+
+.standard-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-decoration: underline;
+  color: #4985FF;
+}
+
+.standard-list {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.standard-item-head {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.standard-icon {
+  fill: #4985FF;
+}
+
+.standard-items-text {
+  font-size: 16px;
+  line-height: 1.25;
+  color: #999999;
+}
+
+.standard-item-head span {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 53px;
+  color: #000000;
 }
